@@ -52,7 +52,7 @@ contract NFT is ERC721Enumerable, Ownable {
 
   // public
   function mint(uint256 _mintAmount) public payable {
-    require(!paused, "the contract is paused");
+    require(!paused, "the contract is paused by Raja"); // changes by rajasekhar
     uint256 supply = totalSupply();
     require(_mintAmount > 0, "need to mint at least 1 NFT");
     require(_mintAmount <= maxMintAmount, "max mint amount per session exceeded");
