@@ -20,7 +20,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract NFT is ERC721Enumerable, Ownable {
   using Strings for uint256;
-
+  string public demoURI;
   string public baseURI;
   string public baseExtension = ".json";
   string public notRevealedUri;
