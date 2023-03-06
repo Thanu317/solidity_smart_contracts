@@ -17,4 +17,4 @@ jobs:
           low-threshold: 1
           optimization-threshold: 1
           informative-threshold: 10
-          projectPath: "."
+          projectPath: "./contracts/NFT/"
